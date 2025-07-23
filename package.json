@@ -1,0 +1,38 @@
+{
+  "name": "lendsqr-wallet",
+  "version": "1.0.0",
+  "description": "Lendsqr wallet MVP backend service",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "build": "npx tsc",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "keywords": [],
+  "author": "Gbeminiyi Gbenga",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "knex": "^2.5.1",
+    "mysql2": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.2",
+    "cross-env": "^7.0.3",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
